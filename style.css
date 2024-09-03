@@ -219,6 +219,12 @@ a {
   margin: 100px 0 0 0;
 }
 
+.lines {
+  width: 290px;
+  height: 1px;
+  background: rgb(76, 0, 255);
+}
+
 .established__companies {
   background-color: rgba(243, 209, 191, 1);
 }
@@ -801,6 +807,22 @@ a {
 }
 
 @media (max-width: 571px) {
+body{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img{
+  max-width: 100%;
+}
+
+.service-two__container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
   .container {
     padding: 0 15px;
   }
